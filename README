@@ -1,0 +1,10 @@
+# nix_utf8_encode
+encode Unicode codepoints into UTF-8
+
+## usage
+`echo 'U+0024 U+00A2 U+0939 U+20AC U+10348' | utf8_encode`
+
+## building and installing
+  - build: `make`
+  - install: `sudo cp utf8_encode /usr/local/bin/`
+
